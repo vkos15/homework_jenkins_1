@@ -20,7 +20,7 @@ public class TestRegistrationForm extends TestBase {
     String phone = faker.phoneNumber().subscriberNumber(10);
     String address = faker.address().fullAddress();
     String hobby = "Sports";
-    String FILE_PHOTO = "photo_test.jpg";
+    String FILE_PHOTO = "image/photo_test.jpg";
     String userGender = "Female";
     String subject = "Math";
 
