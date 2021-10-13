@@ -2,13 +2,14 @@ package tests.demoqa;
 
 import com.github.javafaker.Faker;
 import components.CalendarComponent;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import tests.TestBase;
 
 import static io.qameta.allure.Allure.step;
 
-
+@Tag("test_registration_form")
 public class TestRegistrationForm extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();

@@ -66,3 +66,9 @@ task many_tags_tests(type:Test){
         includeTags "smoke"
     }
 }
+
+task test_registration_form(type:Test){
+    useJUnitPlatform{
+        includeTags "test_registration_form"
+    }
+}
