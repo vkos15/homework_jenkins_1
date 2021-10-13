@@ -29,7 +29,6 @@ public class TestBase {
         String password = credentials.password();
         String url = System.getProperty("url", "selenoid.autotests.cloud/wd/hub/");
         String remote = format("https://%s:%s@%s", login, password, url);
-        // Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
         Configuration.remote = remote;
     }
 
