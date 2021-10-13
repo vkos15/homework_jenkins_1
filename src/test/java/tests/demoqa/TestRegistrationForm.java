@@ -58,7 +58,7 @@ public class TestRegistrationForm extends TestBase {
                     .checkFieldInForm("Gender", userGender)
                     .checkFieldInForm("Subjects", subject)
                     .checkFieldInForm("Hobbies", hobby)
-                    .checkFieldInForm("Picture", FILE_PHOTO)
+                    .checkFieldInForm("Picture", "photo_test.jpg")
                     .checkFieldInForm("Address", address);
 
         });
